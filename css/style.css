@@ -1,0 +1,100 @@
+body {
+   background: #424141;
+  color: #ddd7d7; }
+
+.navbar {
+  opacity: 0.8;
+  background-color: #ce4545; }
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important; }
+
+.navbar .nav-link.active {
+  border-left: #d6d5d5 3px solid; }
+
+#home-section {
+  background: url(../img/girl.jpg) no-repeat center top fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 750px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.644);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 750px; }
+  #home-section .home-inner {
+    padding-top: 145px; }
+  #home-section .card-form {
+    opacity: 0.8;
+    background-color: #181212;
+    border: 0px;
+    color: #cc3a41; }
+  #home-section .form-group input {
+    background-color: #181212;
+    color: #d6d5d5;
+    border-bottom: 1px #ddd solid;
+    border-radius: 0%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif; }
+  #home-section .fa {
+    color: #181212;
+    background: #9b9696;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 30px; }
+  #home-section .form-control {
+    border: 0px; }
+
+#home-icons, #create-section {
+  background-color: white;
+  color: #181212; }
+  #home-icons .fa, #create-section .fa {
+    font-size: 55px; }
+
+#about-head-section, #services-head-section {
+  background-color: #28282e;
+  color: #c6c2ce; }
+
+#testimonial-sec {
+  background-color: #fff8f8;
+  color: #181212; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #949191 solid; }
+
+.modal {
+  color: black; }
+
+#icons {
+  font-size: 30px; }
+
+@media (max-width: 576px) {
+  nav .container {
+    width: 100%; } }
+
+/*@media screen and (min-width: 320px) and (max-width: 400px){
+ #home-section{
+background: url(../img/girl.jpg) no-repeat center top fixed;
+
+}}*/
+
+@media handheld, only screen and (max-width: 500px) {
+    #home-section{ 
+    background-attachment: scroll !important;
+    background-position: center center !important; }
+}
+
+
+
+        
+    
+
+
+

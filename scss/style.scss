@@ -1,0 +1,112 @@
+$bg-color:rgb(66, 65, 65);
+$font-color:rgb(221, 215, 215);
+$primary-color:#d6000b;
+$dark-overlay: rgba(0, 0, 0, 0.644);
+$landing-icon-size:30px;
+$icon-size: 55px;
+
+body{
+   background: $bg-color;
+    color:$font-color;
+}
+
+
+ .navbar{
+    //border-bottom: $primary-color 3px solid;
+    opacity: 0.8;
+    background-color: rgb(206, 69, 69);
+    
+}
+.navbar{
+    .nav-link{
+        font-size:14px;
+        text-transform: uppercase;
+        padding-left:1em !important;
+        padding-right: 1em !important;
+        
+        
+    }
+    .nav-link.active{
+        border-left: rgb(214, 213, 213) 3px solid;
+    }
+}
+
+#home-section{
+    background: url(../img/girl.jpg) no-repeat center top fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+
+    .dark-overlay{
+        background-color: $dark-overlay;
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+    }
+    .home-inner{
+        padding-top: 145px;
+    }
+    .card-form{
+        opacity: 0.8;
+        background-color: #181212;
+        border:0px;
+        color: #cc3a41;
+    }
+    .form-group input{
+        background-color: #181212;
+        border-bottom: 1px #ddd solid;
+        border-radius: 0%;
+        font-size: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        
+    }
+    .fa{
+        color: #181212;
+        background: rgb(155, 150, 150);
+        padding: 3px;
+        border-radius: 5px; 
+        font-size: $landing-icon-size;
+    }
+    .form-control{
+        border: 0px
+    }
+}
+#home-icons, #create-section{
+  .fa{
+      font-size: $icon-size;
+  }
+  background-color: white;
+  color: #181212;
+}
+
+#about-head-section, #services-head-section{
+    background-color: rgb(40, 40, 46);
+    color:rgb(198, 194, 206);
+}
+
+#testimonial-sec{
+    background-color: rgb(255, 248, 248);
+    color: #181212
+}
+.info-header{
+    width:50%;
+    margin: auto;
+    border-bottom: 1px rgb(148, 145, 145) solid;
+}
+.modal{
+    color:black;
+}
+#icons{
+    font-size:$landing-icon-size;
+}
+
+@media(max-width:576px){
+    nav .container{
+        width:100%;
+    }
+
+}
+//d-none d-md-block
